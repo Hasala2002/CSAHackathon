@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  animation: floating 3s infinite ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 7.5px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+.banner {
+  padding: 20px;
+  margin: 20px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.banner ion-icon {
+  font-size: 25px;
+}
